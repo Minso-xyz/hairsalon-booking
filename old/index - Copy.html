@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuti a Taglia che passa!</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <section class="section-book">
+        <div class="book">
+            <div class="book_form">
+                <form action="/submit" class="form" method="post">
+                    <h2 class="heading">
+                        Benvenuti a Taglia che ti passa<br>
+                        Prenota ora!
+                    </h2>
+                    <div class="form_group">
+                        <label for="Nome" class="form_label">
+                        Nome
+                        </label>
+                        <input 
+                        type="text" 
+                        class="form_input" 
+                        placeholder="Nome" 
+                        id="name"
+                        name="user_name"
+                        required>
+            
+                    </div>
+
+                    <div class="form_group">
+                        <label for="email" class="form_label">
+                        Email
+                        </label>
+                        <input 
+                        type="email" 
+                        class="form_input" 
+                        placeholder="Email" 
+                        id="email" 
+                        name="user_email"
+                        required>
+                        
+                    </div>
+                    
+                    <div class="form_group">
+                        <label for="phonenumber" class="form_label">
+                        Cellulare
+                        </label>
+                        <input 
+                        type="tel" 
+                        class="form_input" 
+                        placeholder="Cellulare" 
+                        id="phonenumber"
+                        name="user_phone"
+                        required>
+                        
+                    </div>
+
+                    <div class="form_radio-gender">
+                        <input type="radio"
+                        class="form_radio-input"
+                        id="male"
+                        name="gender">
+                        <label for="male" class="form_radio-label">
+                            <span class="form_radio-button">
+                                Uomo
+                            </span>
+                        </label>
+                    </div>
+
+                    <div class="form_radio-gender">
+                        <input type="radio"
+                        class="form_radio-input"
+                        id="female"
+                        name="gender">
+                        <label for="female" class="form_radio-label">
+                            <span class="form_radio-button">
+                                Donna
+                            </span>
+                        </label>
+                    </div>
+
+                    <div class="form_radio-gender">
+                        <input type="radio"
+                        class="form_radio-input"
+                        id="bambini"
+                        name="gender">
+                        <label for="bambini" class="form_radio-label">
+                            <span class="form_radio-button">
+                                Bambini
+                            </span>
+                        </label>
+                    </div>
+
+                    <div class="form-service-selection" style="width:50px;">
+                        <select>
+                            <option value="0">Taglio</option>
+                            <option value="1">Colore</option>
+                            <option value="2">Permanente</option>
+                            <option value="3">Stiratura lisci</option>
+                            <option value="4">Trattamento rinforzante</option>
+                            <option value="5">Colpi di sole</option>
+                            <option value="6">Allungamento capelli</option>
+                            <option value="7">Altri</option>
+                        </select>
+                        </label>
+                    </div>
+
+                    <div class="form_booking"></div>
+                    <button class="button">Avanti &rarr;</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
