@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns>th="http://www.thymeleaf.org"</html>>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuti a Taglia che passa!</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <section class="section-book">
+        <div class="book">
+            <div class="book_form">
+                <form action="#" class="form">
+                    <h2 class="heading">
+                        th:text="'Grazie, ' + ${name} + '!'" Ti aspettiamo presto!<br>
+                    </h2>
+
+
+                    
+
+                    <div class="form-service-selection" style="width:50px;">
+                        <select>
+                            <option value="0">Taglio</option>
+                            <option value="1">Colore</option>
+                            <option value="2">Permanente</option>
+                            <option value="3">Stiratura lisci</option>
+                            <option value="4">Trattamento rinforzante</option>
+                            <option value="5">Colpi di sole</option>
+                            <option value="6">Allungamento capelli</option>
+                            <option value="7">Altri</option>
+                        </select>
+                        </label>
+                    </div>
+
+                    <div class="form_booking"></div>
+                    <button class="button">Avanti &rarr;</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
